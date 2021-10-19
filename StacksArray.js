@@ -16,13 +16,11 @@ class Stack {
   }
 
   push(value) {
-    this.array.push(value);
-    return this;
+    return this.array.push(value);
   }
 
   pop() {
-    this.array.pop();
-    return this;
+    return this.array.pop();
   }
 }
 
